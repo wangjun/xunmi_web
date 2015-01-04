@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>寻觅--网盘搜索</title>
+    <link rel="shortcut icon" href="/static/favicon.ico" />
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div style="float: left; margin: 5px; margin-left: 10px">
+            <a href="/"><img width="69" height="30" src="/static/searchlogoblue.png"></a>
+        </div>
+        <div style="float: right;margin-right: 20px; color: white">
+            <a href="/android" target="_blank" style="text-decoration:none; color: white">Android版</a>
+            <span class="dot" style="margin-right: 5px;margin-left: 5px">·</span>
+            <a href="/about" target="_blank" style="text-decoration:none; color: white">About</a>
+        </div>
+    </div>
+    <div id="body">
+        <div class="div0">
+            <div class="div1">
+                <img width="300" height="150" src="/static/logo_white.jpg">
+            </div>
+
+            <div class="div2">
+                <form name="search" action="{{ url_for('search') }}" method=get id="search">
+                    <input class="search-key" type="search" name="q" />
+                    <input class="submit" type="submit" value="寻觅一下" />
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        <span style="color: darkgrey">Copyright © 2015 egrcc. All Rights Reserved</span>
+    </div>
+</div>
+</body>
+
+</html>

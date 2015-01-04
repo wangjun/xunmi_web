@@ -1,0 +1,6 @@
+libraries:
+- name: requests
+  version: "2.4.0"
+
+- name: beautifulsoup4
+  version: "4.3.2"

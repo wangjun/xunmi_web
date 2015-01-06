@@ -1,0 +1,65 @@
+.div0 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.div1 {
+    text-align: center;
+}
+
+.div2 {
+    text-align: center;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {
+    height: 40px;
+    line-height: 40px;
+    background-color: #0285f0;
+}
+
+#body {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    padding-bottom: 60px; /* Height of the footer */
+}
+
+#footer {
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+}
+
+.search-key {
+    width: 600px;
+    height: 40px;
+    border: solid;
+    border-width: 1px;
+    border-color: #0285f0;
+    background-color: white;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #0285f0;
+    color: white;
+}
